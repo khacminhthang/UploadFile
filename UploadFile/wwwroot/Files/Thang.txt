@@ -1,0 +1,8 @@
+docker build -t gisteam/microapp:k8s .
+docker push gisteam/microapp:k8s
+
+docker build -t gisteam/stitching:gzip .
+docker push gisteam/stitching:gzip
+
+docker build -t gisteam/iwater-stitching:k8s .
+docker push gisteam/iwater-stitching:k8s
